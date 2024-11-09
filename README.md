@@ -1,8 +1,10 @@
 
-Project Overview
+## Project Overview
 This is Dynamic pricing system:
 
-Clone the Repository:
+## Installation
+
+- Clone the Repository:
 
 bash
 Copy code
@@ -37,13 +39,13 @@ If you have Django REST Framework’s built-in browsable API enabled, you can ac
 API Endpoints
 Products:
 
-POST /api/products/: Create a basic product.
-POST /api/seasonal-products/: Create a seasonal product.
-POST /api/bulk-products/: Create a bulk product.
+- POST /api/products/: Create a basic product.
+- POST /api/seasonal-products/: Create a seasonal product.
+- POST /api/bulk-products/: Create a bulk product.
 Discounts:
 
-POST /api/percentage-discounts/: Create a percentage discount.
-POST /api/fixed-discounts/: Create a fixed amount discount.
-Orders:
+- POST /api/percentage-discounts/: Create a percentage discount.
+- POST /api/fixed-discounts/: Create a fixed amount discount.
+- Orders:
 
-POST /api/orders/: Create an order with products and an optional discount, returning the total price.
+- POST /api/orders/: Create an order with products and an optional discount, returning the total price.
