@@ -1,26 +1,7 @@
 
 Project Overview
-This project provides a pricing system with the following main components:
+This is Dynamic pricing system:
 
-Products: Different types of products (e.g., seasonal products, bulk products) with customizable pricing rules.
-Discounts: Discount mechanisms (percentage-based or fixed amount) applied to orders.
-Orders: Calculates total prices based on included products and discounts.
-The main logic is implemented with OOP principles in a separate dynamic_project.py file and further enhanced with Django models and REST APIs for real-world use.
-
-Features
-Dynamic Pricing: Calculate product prices dynamically based on conditions like seasonal discounts or bulk purchases.
-Discounts: Apply discounts to orders, either as a percentage or a fixed amount.
-REST API: Exposes endpoints for creating products, discounts, and orders with Django REST Framework.
-Unit Tests: Test cases to validate product pricing, discount application, and order total calculations.
-Project Structure
-dynamic_project.py: Contains the core pricing and discount classes with OOP principles.
-order app:
-models.py: Contains Django models for Products, Discounts, and Orders.
-serializers.py: DRF serializers for API representation of Products, Discounts, and Orders.
-views.py: API views for managing products, discounts, and orders.
-tests.py: Unit tests for models and API endpoints.
-requirements.txt: Lists dependencies to install for running the project.
-Installation
 Clone the Repository:
 
 bash
