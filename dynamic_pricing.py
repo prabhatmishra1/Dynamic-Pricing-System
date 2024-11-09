@@ -1,3 +1,9 @@
+"""
+Based on the document, I found main goal is to demonstrate object-oriented programming (OOP)
+principles with inheritance and dynamic pricing.
+"""
+
+
 class Product:
     """
     This class will manage the product related information
