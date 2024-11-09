@@ -2,6 +2,10 @@
 ## Project Overview
 This is Dynamic pricing system:
 
+## Object-oriented programming (OOP)
+
+This is a dynamic pricing system, and I have implemented it using object-oriented programming (OOP) principles. You can check the codebase in the dynamic_project.py file. I have added further implementations using Django models and a REST API. To run the system, install the dependencies from the requirements.txt file, migrate the database, and test the API. The codebase is located in the order app, and I have created test cases that you can run using python manage.py test
+
 ## Installation
 
 - Clone the Repository:
